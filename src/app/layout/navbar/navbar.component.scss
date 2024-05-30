@@ -1,0 +1,54 @@
+#mainNavigation {
+  font-family: 'Cabin', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+
+  .nav-item {
+    min-width: 12vw;
+
+    a {
+      color: #212227;
+
+      &:hover {
+        color: #85bb85;
+      }
+    }
+  }
+
+  .dropdown-menu {
+    background: white;
+  }
+
+  a.dropdown-toggle {
+    color: #212227 !important;
+  }
+
+  a.dropdown-item {
+    color: #85bb85 !important;
+  }
+
+  a.dropdown-item:hover {
+    color: #212227 !important;
+  }
+
+  // position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 123;
+  padding-bottom: 80px;
+
+  background: -moz-linear-gradient(top, rgba(133, 187, 101, 1) 0%, rgba(0, 0, 0, 0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(133, 187, 101, 1) 0%, rgba(0, 0, 0, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(133, 187, 101, 1) 0%, rgba(0, 0, 0, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0 ); /* IE6-9 */
+}
+
+#navbarNavDropdown {
+  &.collapsing .navbar-nav,
+  &.show .navbar-nav {
+    padding: 12px;
+  }
+}

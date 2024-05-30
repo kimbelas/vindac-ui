@@ -1,0 +1,50 @@
+footer {
+  font-family: 'Cabin', sans-serif;
+
+  a {
+    text-decoration: none;
+    color: #212227;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0) 100%;
+    }
+  }
+
+  .btn {
+    background-color: white;
+  }
+
+  .contact-icon {
+    font-size: 20px;
+    margin-right: 5px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .contact-label {
+    font-size: 20px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  background: -moz-linear-gradient(
+    top,
+    rgba(88, 129, 87, 1),
+    rgba(0, 0, 0, 0) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(88, 129, 87, 1),
+    rgba(0, 0, 0, 0) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to top,
+    rgba(88, 129, 87, 1),
+    rgba(0, 0, 0, 0) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0 ); /* IE6-9 */
+}
