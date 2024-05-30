@@ -17,6 +17,7 @@ import { PlantPeopleComponent } from './pages/plant-people/plant-people.componen
 import { GrandpasGardenShopComponent } from './pages/grandpas-garden-shop/grandpas-garden-shop.component';
 import { TeamComponent } from './pages/team/team.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { MethodologyComponent } from './pages/methodology/methodology.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ContactComponent } from './pages/contact/contact.component';
     PlantPeopleComponent,
     GrandpasGardenShopComponent,
     TeamComponent,
-    ContactComponent
+    ContactComponent,
+    MethodologyComponent
   ],
   imports: [
     BrowserModule,

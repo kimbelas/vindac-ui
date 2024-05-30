@@ -11,12 +11,14 @@ import { PlantPeopleComponent } from './pages/plant-people/plant-people.componen
 import { GrandpasGardenShopComponent } from './pages/grandpas-garden-shop/grandpas-garden-shop.component';
 import { TeamComponent } from './pages/team/team.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { MethodologyComponent } from './pages/methodology/methodology.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'portfolio', component: PortfolioComponent },
+  { path: 'methodology', component: MethodologyComponent },
   { path: 'create-with-vin', component: CreateWithVinComponent },
   { path: 'day-one-distro', component: DayOneDistroComponent },
   { path: 'vindac-builds', component: VindacBuildsComponent },
